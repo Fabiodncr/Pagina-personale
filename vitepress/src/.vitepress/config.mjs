@@ -30,6 +30,7 @@ export default defineConfig(({ command }) => {
         { text: 'Didattica & Manim', link: '/didattica' },
         { text: 'Eventi', link: '/eventi' }
       ],
+    
 
       sidebar: [
         {
@@ -37,17 +38,26 @@ export default defineConfig(({ command }) => {
           items: [
             { text: 'Biografia', link: '/' },
             { text: 'Pubblicazioni', link: '/pubblicazioni' },
-            { text: 'Didattica e Animazioni', link: '/didattica' },
-            { text: 'Partecipazione a Eventi', link: '/eventi' }
+            { 
+              text: 'Didattica e Animazioni', 
+              link: '/didattica',
+              collapsed: false,
+              items: [
+                { text: 'Lezione 1', link: '/didattica/lezione-1' },
+                { text: 'Lezione 2', link: '/didattica/lezione-2' },
+                { text: 'Lezione 3', link: '/didattica/lezione-3' }
+              ]
+            },
+            { text: 'Partecipazione a Eventi', link: '/eventi' },
           ]
-        }
+        } 
       ],
 
       socialLinks: [
         { icon: 'github', link: 'https://github.com' },
         { icon: 'linkedin', link: 'https://linkedin.com' }
       ]
-    },
+  },
 
     head: [
       ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css' }]
