@@ -3,15 +3,15 @@ layout: doc
 ---
 
 # Dr. Fabio Di Nocera
-*Docente di Matematica e Fisica*
+*Teacher, Mathematics & Physics*
 
 ![Foto Profilo](https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=300) <!-- Sostituire con foto reale in docs/public/ -->
 
-Ciao, 
+Hi, 
 
 
-## Ricerca
+## Research
 * 
 
-## Contatti 
+## Contacts 
 * **Email:** 
